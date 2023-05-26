@@ -25,7 +25,7 @@
 
 	
 	
-	//2번. map
+	//2번. Map + 리스트
 	Map<String, String> maps = new HashMap<>();
 	maps.put("title", "Map에서 성공");
 	
@@ -35,7 +35,7 @@
 	pageContext.setAttribute("book2", book2);	
 	
 			
-	//3번. 어레이
+	//3번. 배열 + 자바빈즈
 	BookVO[] book3 = new BookVO[1];
 	book3[0] = new BookVO();
 	book3[0].setTitle("BookVO 어레이에서 성공");
@@ -44,7 +44,7 @@
 	
 	
 	
-	//4번. 리스트
+	//4번. 리스트 + 자바빈즈
 	List<BookVO> book4 = new ArrayList<>();
 	BookVO book = new BookVO();
 	book.setTitle("List에서 성공");

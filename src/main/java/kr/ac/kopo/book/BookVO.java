@@ -44,6 +44,16 @@ public class BookVO {
 	public void setWriter(String writer) {
 		this.writer = writer;
 	}
+
+	//0526 츄거
+	public BookVO(String isbn, String title, String writer) {
+		super();
+		this.isbn = isbn;
+		this.title = title;
+		this.writer = writer;
+	}
+	
+	
 	
 	
 	
